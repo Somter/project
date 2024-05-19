@@ -1,0 +1,16 @@
+<div>
+  <button class="DiscountButton" (click)="ngOnInit()">Хочу скидку</button>  
+</div>
+
+<div *ngFor="let product of products">
+  <app-card-block [product]="product" (viewDetails)="showDetails($event)">
+    <b>{{ product.color }}</b>
+  </app-card-block>
+</div>
+
+<div *ngIf="selectedProduct" class="product">
+  <h2>{{ selectedProduct.name }}</h2>
+  <p>{{ selectedProduct.description }}</p>
+  <p>Price: ${{ selectedProduct.price }}</p>
+</div>
+

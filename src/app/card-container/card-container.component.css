@@ -1,0 +1,19 @@
+.product {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .DiscountButton{
+    margin-top: 8px;
+    margin-left: 70px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+    border-radius: 4px;
+  }
